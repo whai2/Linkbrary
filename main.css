@@ -96,3 +96,56 @@ body {
 .footer_color {
   /*background: var(--The-julge-black, #111322);*/
 }
+
+
+/*gnb 레이아웃*/
+.gnb_ly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+/*gnb, 로고 블록, 버튼 블록*/
+.gnb {
+  width: 100%;
+}
+
+.logo_gnb {
+  width: 133px;
+  height: 24px;
+}
+
+
+/*버튼 레이아웃*/
+.button_ly {
+  display: flex;
+  width: 128px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 버튼 스타일, 컬러*/
+.button_hypl {
+  text-decoration-line: none;
+}
+
+.button_style {
+  border-radius: 8px;
+}
+
+.button_color {
+  background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, var(--Linkbrary-primary-color, #6D6AFE) 0.12%, #6AE3FE 101.84%));
+}
+
+/* 버튼 블록 > 로그인 엘리먼트*/
+.button__login {
+  color: var(--Grey-Light, #F5F5F5);
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
