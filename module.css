@@ -1,3 +1,15 @@
+:root {
+  --Linkbrary-primary-color: #6D6AFE;
+  --palette-red-color: #FF5B56;
+  --The-julge-black: #111322;
+  --palette-white-color: #FFFFFF;
+  --palette-gray-color-1: #3E3E43;
+  --palette-gray-color-2: #9FA6B2;
+  --Linkbrary-gray-color-3: #CCD5E3;
+  --palette-gray-color-4: #E7EFFB;
+  --Linkbrary-bg: #F0F6FF;
+}
+
 /*0. 아티클 블록 */
 /*아티클 레이아웃*/
 .article_ly {
