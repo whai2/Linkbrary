@@ -1,0 +1,207 @@
+/*0. 아티클 블록 */
+/*아티클 레이아웃*/
+.article_ly {
+  display: flex;
+  align-items: center;
+  gap: 157px;
+}
+
+/*1. 버튼 블록 */
+/*버튼 레이아웃*/
+.button_ly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 10px;
+}
+
+/* 버튼 사이즈 */
+.button_login_size {
+  width: 128px;
+}
+
+.button_auth_size {
+  width: 350px;
+}
+
+/* 버튼 스타일, 컬러*/
+.button_hypl {
+  text-decoration-line: none;
+}
+
+.button_style {
+  border-radius: 8px;
+}
+
+.button_color {
+  background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, var(--Linkbrary-primary-color, #6D6AFE) 0.12%, #6AE3FE 101.84%));
+}
+
+/* 버튼 블록 > 로그인 엘리먼트*/
+.button__text {
+  color: var(--Grey-Light, #F5F5F5);
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+/*2. 텍스트 블록 */
+/*2-1. 텍스트 컨테이너 블록 */
+/* 텍스트 컨테이너 블록 레이아웃 */
+.text_container_ly {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/*2-2. 텍스트 블록 */
+/* 텍스트 블록 레이아웃 */
+.text_ly {
+  text-align: center;
+  line-height: normal;
+}
+
+.text_auth_ly {
+  text-align: center;
+  line-height: 80px;
+}
+
+.text_auth {
+  font-size: 64px;
+}
+.text_default {
+  font-size: 48px;
+}
+
+.text_style {
+  font-family: Pretendard;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.text_color {
+  color: #000;
+}
+
+.text_auth_diff-color {
+  background: linear-gradient(91deg, var(--Linkbrary-primary-color, #6D6AFE) 17.28%, #FF9F9F 74.98%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_card_diff_color {
+  background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*2-3. 텍스트 언더 블록 */
+.text_under {
+  color: #6B6B6B;
+  font-family: Abel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+
+/*3. 이미지 블록 */
+/*3-1. 이미지 컨테이너 블록 */
+/* 이미지 컨테이너 블록 레이아웃 */
+.img_container_ly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 이미지 컨테이너 블록 사이즈 */
+.img_container_auth_size {
+  width: 1200px;
+  height: 590px;
+}
+
+.img_container_card_size {
+  width: 550px;
+  height: 450px;
+  overflow: hidden;
+}
+
+/* 이미지 컨테이너 블록 컬러 */
+.img_container_color {
+  background: #F0F6FF;
+}
+
+.img_container_style {
+  border-radius: 15px;
+}
+
+/* 이미지 컨테이너 > 카드 엘리먼트 레이아웃 */
+.img_comtainer__card_ly {
+  display: inline-flex;
+  align-items: center;
+  gap: -12px;
+}
+
+.img_comtainer__card {
+
+}
+
+/*3-2. 이미지 블록 */
+/* 이미지 블록 레이아웃 */
+.img_auth_ly {
+  flex-shrink: 0;
+}
+
+/* 이미지 블록 사이즈 */
+.img_auth {
+  width: 1118px;
+  height: 659px;
+}
+
+.img_card-left {
+  cursor: pointer;
+  width: 279px;
+  height: 274.927px;
+}
+
+.img_card-center {
+  background-image: url("Publics/landing/Card.png");
+  cursor: pointer;
+  width: 279px;
+  height: 274.441px;
+}
+
+/* 카드 블록 센터의 로고 위치*/
+.img_card-center>svg {
+  position: relative;
+  cursor: pointer;
+  right: -85%;
+  top: 85%;
+}
+
+.img_card-right {
+  cursor: pointer;
+  width: 279px;
+  height: 274.122px;
+}
+
+/* 이미지 블록 스타일 */
+.img_style {
+  border-radius: 25px;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+}
+
+/* 이미지 블록 컬러 */
+.img_color {
+  background: linear-gradient(180deg, rgba(196, 196, 196, 0.00) 67.68%, #F0F6FF 94.76%);
+}
